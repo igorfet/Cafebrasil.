@@ -8,7 +8,7 @@ header,
 section h2,
 section h3,
 form button,
-h3, h2, h1 {
+h6, h3, h2, h1 {
     font-family: 'Josefin Sans', sans-serif; 
     font-weight: normal;
 } 
@@ -47,7 +47,7 @@ header nav li, a {
 }
 
 .container  {
-    max-width: 1081px;
+    max-width: 1080px;
     width: 100%;
     margin: 0  auto;
 }
@@ -58,7 +58,7 @@ section .container, p {
     align-items: center;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px 0;
+    padding: 8px 0;
 
 }
 
@@ -87,10 +87,11 @@ section .container, p {
 
 #contact .container {
     display: block;
+    align-items: center;
 }
 
 .store-logo img {
-    height: 99px;
+    height: 80px;
 }
 
 .store-logo li {
