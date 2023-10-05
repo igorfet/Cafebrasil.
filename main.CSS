@@ -8,7 +8,7 @@ header,
 section h2,
 section h3,
 form button,
-h6, h3, h2, h1 {
+h3, h2, h1 {
     font-family: 'Josefin Sans', sans-serif; 
     font-weight: normal;
 } 
@@ -58,7 +58,7 @@ section .container, p {
     align-items: center;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 8px 0;
+    padding: 10px 0;
 
 }
 
@@ -87,11 +87,15 @@ section .container, p {
 
 #contact .container {
     display: block;
-    align-items: center;
 }
 
+#contact .container b {
+    color: red;
+}
+
+
 .store-logo img {
-    height: 80px;
+    height: 99px;
 }
 
 .store-logo li {
@@ -117,21 +121,21 @@ section h3 {
 }
 
 form button {
-    background-color: green;
+    background-color: rgb(15, 126, 15);
     color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #3a549d;
+    background-color: #686e7e;
 }
+
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #ffffff;
 }
 
 footer {
-    background-color: #182C61;
     color:#2ab5d8;
     padding: 16px 0;
     margin-bottom: 80px;
